@@ -1,0 +1,379 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+	font-style: sans-serif;
+}
+.body{
+	background-color: black;
+}
+.mask{
+	height: 90vh;
+	width: 100vw;
+	position: absolute;
+	top:0px;
+	background-color:rgba(0,0,0,0.6);
+   
+
+}
+.banner{
+	height: 90vh;
+	width: 100vw;
+	object-fit: cover;
+
+   /* overflow: hidden; */
+}
+.banner img{
+	height: 100%;
+	width: 100%;
+	
+	z-index: 1;
+
+}
+.nav{
+	background: transparent;
+}
+nav .nav-bar{
+	display: flex;
+	width: 100vw;
+	
+	
+}
+/* nav bar */
+ .logo svg{
+	position: absolute;
+     left:10vw;
+	width: 150px;
+	height: 100px;
+	z-index: 9;
+	color: rgb(229,9,20);
+	fill: currentColor;
+
+}
+.nav-bar .sign{
+	display: flex;
+	gap: 200px;
+}
+.nav-bar .sign .button button{
+	position: absolute;
+	z-index: 9;
+	right: 10vw;
+	background-color: rgb(229,9,20);
+	height: 35px;
+	color: white;
+	width: 70px;
+	top: 30px;
+	border-radius: 5px;
+	font-weight: bolder;
+	
+}
+
+.nav-bar .sign .dropdown{
+	z-index: 9;
+	position: absolute;
+	right: 16vw;
+	top: 30px;
+	background-color: transparent;
+}
+.nav-bar .sign .dropdown button{
+	background-color: transparent;
+}
+.mask{
+	border-bottom: 8px solid rgb(46, 46, 46);
+}
+
+.mask .heading{
+	width: 75vw;
+margin:8vh auto;
+}
+.mask .heading{
+color: white;
+position: absolute;
+top:50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.mask .heading h1{
+font-size: 3vw;
+font-weight:bolder;
+text-align: center;
+font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+font-style: sans-serif;
+text-shadow: 0px 0px 2px white;
+}
+.mask .heading p{
+	font-size: 25px;
+	font-style: sans-serif;
+color: white;
+text-align: center;
+}
+.mask .heading .input{
+	text-align:center;
+	margin-top: 50px;
+}
+.mask .heading .input input{
+	background-color:rgba(0, 0, 0,0.7);
+	outline: none;
+	color: white;
+	height: 30px;
+	padding: 30px;
+	width:30vw;
+	border: 0.25px solid white;
+	border-radius: 10px;
+}
+.mask .heading .input button{
+	background-color: rgb(229,9,20);
+	height: 60px;
+	color: white;
+	width: 170px;
+	top: 30px;
+	border-radius: 5px;
+	font-weight: bolder;
+	font-size:20px;
+	margin-left: 20px;
+	
+}
+
+/* box1 */
+.box1{
+	display: flex;
+	width: 100vw;
+	height: 70vh;
+	border-bottom: 8px solid rgb(46, 46, 46);
+
+}
+
+.box1 .left-side {
+width: 50%;
+margin-top: 20vh;
+margin-left: 5vw;
+color: white;
+font-style: sans-serif;
+
+}
+.box1 .left-side h1{
+font-size: 50px;
+font-weight: bolder;
+}
+.box1 .left-side p{
+	font-size: 25px;
+	width: 100%;
+}
+
+.box1 .right-side{
+	/* width: 50%; */
+/* margin-right: 50px; */
+z-index: 1;
+	
+}
+.box1 .right-side .image{
+	position: relative;
+}
+.box1 .right-side .video{
+	position: absolute;
+	z-index:-1;
+	width: 100%;
+	height: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+.box1 .right-side .video video{
+	display: inline-block;
+    vertical-align: baseline;
+	margin-top: 90px;
+	margin-left: 71px;
+}
+/* 2nd box */
+
+.box2{
+	display: flex;
+	height: 70vh;
+	width: 100vw;
+	border-bottom: 8px solid rgb(46, 46, 46);
+	padding: 10px 50px;
+	font-style: sans-serif;
+}
+.box2 .rside {
+	width: 50%;
+	text-align: center;
+	margin-top: 20vh;
+	color: white;
+}
+.box2 .rside h1{
+	font-size: 50px;
+	font-weight: bolder;
+}
+.box2 .rside p{
+	font-size: 25px;
+}
+/* box3 */
+.box1 .right-side .video1{
+	position: absolute;
+	z-index:-1;
+	width: 100%;
+	height: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+.box1 .right-side .video1 video{
+	position: absolute;
+	left: 116px;
+	top: -92px;
+	width: 392px;
+	height: 500px;
+}
+
+/* box4 */
+.box4{
+	display: flex;
+	height: 70vh;
+	width: 100vw;
+	border-bottom: 8px solid rgb(46, 46, 46);
+	padding: 10px 50px;
+	font-style: sans-serif;
+}
+.box4 .rside {
+	width: 50%;
+	text-align: center;
+	margin-top: 20vh;
+	color: white;
+}
+.box4 .rside h1{
+	font-size: 50px;
+	font-weight: bolder;
+}
+.box4 .rside p{
+	font-size: 25px;
+}
+
+/* frequent asked ques */
+.heading3{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	margin: 50px auto;
+	font-style: sans-serif;
+}
+.main-box{
+	width: 100vw;
+	height: 100vh;
+	border-bottom: 8px solid rgb(46, 46, 46);
+	font-style: sans-serif;
+	
+}
+.main-box .b{
+	width:70vw;
+	height: 10vh;
+	background-color: rgb(46, 46, 46);
+margin: 20px auto;
+display: flex;
+
+
+}
+.main-box .b:hover{
+	background-color: rgb(98, 98, 98);
+}
+.main-box .b .first{
+	width: 50%;
+}
+.main-box .b .second{
+	text-align: end;
+	width: 50%;
+	padding: 20px;
+
+}
+.main-box .b .second .icon{
+	color: white;
+	text-align: end;
+	font-size: 30px;
+}
+.main-box .b div h5{
+	padding: 30px;
+	color: white;
+	font-size: 25px;
+}
+.main-box .b div span{
+	position:relative;
+right: 0px;
+}
+.main-box .p{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	margin-top: 50px;
+}
+
+ .input{
+	text-align:center;
+	margin-top: 50px;
+}
+ .input input{
+	background-color:rgba(0, 0, 0,0.7);
+	outline: none;
+	color: white;
+	height: 30px;
+	padding: 30px;
+	width:30vw;
+	border: 0.25px solid white;
+	border-radius: 10px;
+}
+ .input button{
+	background-color: rgb(229,9,20);
+	height: 60px;
+	color: white;
+	width: 170px;
+	top: 30px;
+	border-radius: 5px;
+	font-weight: bolder;
+	font-size:20px;
+	margin-left: 20px;
+	
+}
+
+/* footer */
+footer{
+	width: 100vw;
+	height: 50vh;
+	border-bottom: 8px solid rgb(46, 46, 46);
+}
+footer p{
+	font-size: 20px;
+	color: white;
+padding: 30px;
+}
+footer .footer{
+     width: 100vw;
+	 
+
+
+	display: flex;
+	color: white;
+}
+footer .footer ul{
+	list-style: none;
+	margin-top: 20px;
+	margin-right: 80px;
+	margin-left: 80px;
+}
+
+footer .footer ul li{
+	margin-top: 8px;
+}
+footer .dd{
+
+}
+footer .dd .dd1
+{
+	background-color: transparent;
+	margin-top: 20px;
+	margin-left: 90px;
+}
+footer .last{
+	color: white;
+	
+	margin-left: 70px;
+}
